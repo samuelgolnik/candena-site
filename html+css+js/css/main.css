@@ -35,10 +35,11 @@ h1, h2, p, a {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        position: absolute;
+        position: fixed;
         left: 0px;
         right: 0px;
         top: 0px;
+        background-color: #FAF8F5;
     }
 
     .topbar {
@@ -57,7 +58,7 @@ h1, h2, p, a {
         align-items: center;
     }
 
-    .header-logo {
+    .logo-cadena {
         display: block;
         margin: 0 2px;
     }
@@ -75,7 +76,7 @@ h1, h2, p, a {
         display: none;
     }
 
-    .header-logo {
+    .logo-cadena {
         margin: 0 40px;
     }
 
