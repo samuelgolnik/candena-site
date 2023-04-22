@@ -9,6 +9,7 @@
 </head>
 <body>
     <div class="page-wrapper">
+
         <!--HEADER-->
         <header>
             <div class="topbar">
@@ -26,58 +27,83 @@
                     <a>Log in</a>
                     <button class="btn">Sign up</button>
                 </div>
-                <div class="menu-hamburger">
+                <div class="menu-hamburger mobile">
                     <img src="images/icon-menu-mobile.svg" alt="Menu">
                 </div>
             </div>
         </header>
 
         <!--HERO-->
-        <section class="Hero">
+        <section class="hero">
             <div class="container">
 
                 <!--LEFT SIDE-->
-                <div class="content">
+                <div class="hero-content-wrapper">
 
                     <!--HEADING-->
-                    <div class="heading">
-                        <div class="heading-head">
-                            <div class="badge-group">
-                                <div class="badge">
+                    <div class="hero-heading">
+                        <div class="hero-heading-head">
+                            <div class="hero-badge-group">
+                                <div class="hero-badge-title">
                                     <p>New!</p>
                                 </div>
-                                <div class="content">
+                                <div class="hero-badge-content">
                                     <p>Refer a friend & Get 25%</p>
                                     <img src="images/icon-arrow.svg" alt="Indique um amigo">
                                 </div>
                             </div>
+
+                            <!--DESKTOP-->
+
+                            <div class="hero-badge-headding-deskotp desktop">
+                                <h1>Spend Your <span>Money in</span><br>
+                                    <span>Style</span> with a Customized <br>
+                                    Card</h1>
+                            </div>
+
+                            <!--MOBILE-->
+                            <div class="hero-badge-headding-mobile mobile">
+                                <h1>Spend Your <span>Money in</span><br>
+                                    <span>Style</span> with a <br> Customized Card
+                                </h1>
+                            </div>
                         </div>
-                        <p>Use your digital card for online purchases, in-store purchases, and more.</p>
+
+                        <!--DESKTOP-->
+                        <div class="hero-heading-body-desktop desktop">
+                            <p>Use your digital card for online purchases, in-store <br>
+                                purchases, and more.</p>
+                        </div>
+
+                        <!--MOBILE-->
+                        <div class="hero-heading-body-mobile mobile">
+                            <p>Use your digital card for online purchases, in- <br>
+                                store purchases, and more.</p>
+                        </div>
                     </div>
 
                     <!--STORE BUTTONS-->
-                    <div class="store-buttons">
-                        <button class="btn-appstore">
-                            <img src="images/button-appstore.png" alt="Appsotre">
+                    <div class="buttons-wrapper">
+                        <button class="btn-store btn-app">
+                            <img src="images/button-appstore.svg" alt="Appsotre">
                         </button>
-                        <button class="btn-playstore">
-                            <img src="images/button-playsotre.png" alt="Playstore">
+                        <button class="btn-store btn-play">
+                            <img src="images/button-playsotre.svg" alt="Playstore">
                         </button>
                     </div>
                 </div>
 
+            
                 <!--RIGTH SIDE-->
-                <div class="hero-images">
+                <div class="hero-images-wrapper">
 
                     <!--VISA BOARD-->
-                    <div class="visa-board">
-                        <div class="icon-select">
-                            <img src="images/icon-v.svg">
-                        </div>
-                        <div class="visa-container">
+                        <div class="visa-wrapper">
                             <div class="visa-content">
-                                <div class="visa-card">
+                                <div class="visa-card-image">
                                     <img src="images/logo-mastercard.svg" alt="Mastercad logo">
+                                </div>
+                                <div class="visa-card-content">
                                     <p class="visa-name">VISA</p>
                                     <p class="visa-master">Mastercad • 9390</p>
                                 </div>
@@ -85,24 +111,151 @@
                                     <p>$3 520.45</p>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-
-                    <!--CARD BOARD-->
-                    <div class="card-board">
-                        <div class="card-image">
-                            <div class="icon-v icon-v-lg icon-v-purple">
-                                <img src="images/icon-v.svg">
-                            </div>
-                            <div class="card-card">
-                                <img src="images/card-hero.png" alt="Cartão cadena">
+                            <div class="icon-v-visa">
+                                <img src="images/icon-v-white.svg">
                             </div>
                         </div>
-                    </div>
+                
+                    <!--SPLIT-CARD-->
+                        <div class="split-card">
+                            <!--SPLIT BOARD-->
+                            <div class="split-wrapper">
+                            <div class="split-content">
+                                    <div class="split-heading">
+                                        <p>Split payment</p>
+                                        <div class="rectangle rec-xl"></div>
+                                        <div class="rectangle rec-md"></div>
+                                    </div>
 
+                                    <!--AVATARS HORIZONTAL BOARD-->
+                                    <div class="avatars-wrapper-horizontal">
+
+                                        <!--AVATAR 01-->
+                                        <div class="avatar-container-horizontal">
+                                            <div class="avatar-horizontal">
+                                                <img src="images/avatar-01.svg" alt="Avatar 1">
+                                                <div class="avatar-icon-x">
+                                                    <img src="images/icon-x.svg" alt="Fechar">
+                                                </div>
+                                            </div>
+                                            <div class="rectangle rec-sm"></div>
+                                        </div>
+
+                                        <!--AVATAR 02-->
+                                        <div class="avatar-container-horizontal">
+                                            <div class="avatar-horizontal">
+                                                <img src="images/avatar-02.svg" alt="Avatar 2">
+                                                <div class="avatar-icon-x">
+                                                    <img src="images/icon-x.svg" alt="Fechar">
+                                                </div>
+                                            </div>
+                                            <div class="rectangle rec-sm"></div>
+                                        </div>
+
+                                        <!--AVATAR 03-->
+                                        <div class="avatar-container-horizontal">
+                                            <div class="avatar-horizontal">
+                                                <img src="images/avatar-03.svg" alt="Avatar 3">
+                                                <div class="avatar-icon-x">
+                                                    <img src="images/icon-x.svg" alt="Fechar">
+                                                </div>
+                                            </div>
+                                            <div class="rectangle rec-sm"></div>
+                                        </div>
+                                        
+                                        <!--AVATAR VECTORS-->
+                                        <div class="avatar-vector">
+                                            <div class="avatar-vector-1">
+                                                <img src="images/vector-stripe-01.svg">
+                                            </div>
+                                            <div class="avatar-vector-2">
+                                                <img src="images/vector-stripe-02.svg" class="avatar-vector-2">
+                                            </div>
+                                            <div class="avatar-vector-3">
+                                                <img src="images/vector-stripe-03.svg" class="avatar-vector-1">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="frequents">
+                                        <p>Frequents</p>
+                                    </div>
+                                    
+                                    <!--AVATARS VERTICAL BOARD-->
+                                    <div class="avatars-wrapper-vertical">
+
+                                        <!--AVATAR 01-->
+                                        <div class="avatar-vertical">
+                                            <div class="avatar-icon-v">
+                                                <img src="images/icon-v-white.svg">
+                                            </div>
+                                            <img src="images/avatar-01.svg" alt="Avatar 1">
+                                            <div class="rectangle rec-lg"></div>
+                                        </div>
+
+                                        <!--AVATAR 02--> 
+                                        <div class="avatar-vertical">
+                                            <div class="avatar-icon-null"></div>
+                                            <img src="images/avatar-04.svg" alt="Avatar 3">
+                                            <div class="rectangle rec-lg"></div>
+                                        </div>
+
+                                        <!--AVATAR 03--> 
+                                        <div class="avatar-vertical">
+                                            <div class="avatar-icon-v">
+                                                <img src="images/icon-v-white.svg">
+                                            </div>
+                                            <img src="images/avatar-02.svg" alt="Avatar 2">
+                                            <div class="rectangle rec-lg"></div>
+                                        </div>
+
+                                        <!--AVATAR 04--> 
+                                        <div class="avatar-vertical">
+                                            <div class="avatar-icon-v">
+                                                <img src="images/icon-v-white.svg">
+                                            </div>
+                                            <img src="images/avatar-03.svg" alt="Avatar 3">
+                                            <div class="rectangle rec-lg"></div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!--SPOTIFY BOARD-->
+                                    <div class="spotify-board">
+                                        <div class="spotify-left">
+                                            <img src="images/icon-spotify.svg" alt="Spotify">
+                                            <p>Spotify</p>
+                                        </div>
+                                        <div class="spotify-right">
+                                            <p>-$49</p>
+                                        </div>
+                                    </div>
+
+                                    <!--AVATAR VECTOR-->
+                                    <div class="split-vector">
+                                        <img src="images/vector-spiral.svg">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--CARD BOARD-->
+                            <div class="card-image-wrapper">
+                                <div class="icon-v-wrapprer">
+                                    <div class="icon-v-lg">
+                                        <div class="icon-v-sm">
+                                            <img src="images/icon-v-white.svg">
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="card-card">
+                                    <img src="images/card-hero.svg" alt="Cartão cadena">
+                                </div>
+                            </div>
+                        </div>
+                        
                     <!--PAYMENT BOARD-->
-                    <div class="payment">
-                        <div class="bg-payment bg-white">
+                    <div class="payment-board">
+                        <div class="bg-payment-white">
                             <div class="payment-to">
                                 <p>PAYMENT TO</p>
                             </div>
@@ -110,125 +263,59 @@
                                 <img src="images/logo-cadena.svg" alt="Logo Cadena">
                             </div>
                         </div>
-                        <div class="bg-payment bg-rose">
-                            <p>$120</p>
+                        <div class="bg-payment-rose">
+                            <div class="payment-price">
+                                <p>$120</p>
+                            </div>
                         </div>
-                        <div class="icon-v icon-v-md icon-v-rose">
-                            <img src="images/icon-v.svg">
-                        </div>
-                    </div>
-
-                    <!--SPLIT BOARD-->
-                    <div class="split-board">
-                        <div class="split-content">
-                            <div class="split-heading">
-                                <p>Split payment</p>
-                                <div class="rectangle rec-xl"></div>
-                                <div class="rectangle rec-md"></div>
-                            </div>
-
-                            <!--AVATARS HORIZONTAL BOARD-->
-                            <div class="avatars-wrapper-horizontal">
-
-                                <!--AVATAR 01-->
-                                <div class="avatar-container-horizontal">
-                                    <div class="avatar-horizontal">
-                                        <img src="images/avatar-01.png" alt="Avatar 1">
-                                        <div class="avatar-icon-x">
-                                            <img src="images/icon-x.svg" alt="Fechar">
-                                        </div>
-                                    </div>
-                                    <div class="rectangle rec-sm"></div>
+                        <div class="icon-v-payment">
+                            <div class="icon-v-md">
+                                <div class="icon-v-rose">
+                                    <img src="images/icon-v-rose.svg" alt="rose">
                                 </div>
-
-                                <!--AVATAR 02-->
-                                <div class="avatar-container-horizontal">
-                                    <div class="avatar">
-                                        <img src="images/avatar-02.png" alt="Avatar 2">
-                                        <div class="avatar-icon-x">
-                                            <img src="images/icon-x.svg" alt="Fechar">
-                                        </div>
-                                    </div>
-                                    <div class="rectangle rec-sm"></div>
-                                </div>
-
-                                <!--AVATAR 03-->
-                                <div class="avatar-container-horizontal">
-                                    <div class="avatar">
-                                        <img src="images/avatar-03.png" alt="Avatar 3">
-                                        <div class="avatar-icon-x">
-                                            <img src="images/icon-x.svg" alt="Fechar">
-                                        </div>
-                                    </div>
-                                    <div class="rectangle rec-sm"></div>
-                                </div>
-                                
-                                <!--AVATAR VECTOR-->
-                                <div class="avatar-vector">
-                                    <img src="images/vector-stripes-1.svg">
-                                    <img src="images/vector-stripes-2.svg">
-                                    <img src="images/vector-stripes-3.svg">
-                                </div>
-                            </div>
-
-                            <p>Frequents</p>
-
-                            <!--AVATARS VERTICAL BOARD-->
-                            <div class="avatars-wrapper-vertical">
-
-                                <!--AVATAR 01-->
-                                <div class="avatar-vertical">
-                                    <div class="avatar-icon-v">
-                                        <img src="images/icon-v.svg">
-                                    </div>
-                                    <img src="images/avatar-01.png" alt="Avatar 1">
-                                    <div class="rectangle rec-lg"></div>
-                                </div>
-
-                                <!--AVATAR 02-->
-                                <div class="avatar-vertical">
-                                    <div class="avatar-icon-v">
-                                        <img src="images/icon-v.svg">
-                                    </div>
-                                    <img src="images/avatar-04.png" alt="Avatar 3">
-                                    <div class="rectangle rec-lg"></div>
-                                </div>
-
-                                <!--AVATAR 03-->
-                                <div class="avatar-vertical">
-                                    <div class="avatar-icon-v">
-                                        <img src="images/icon-v.svg">
-                                    </div>
-                                    <img src="images/avatar-02.png" alt="Avatar 2">
-                                    <div class="rectangle rec-lg"></div>
-                                </div>
-
-                                <!--AVATAR 04-->
-                                <div class="avatar-vertical">
-                                    <div class="avatar-icon-v">
-                                        <img src="images/icon-v.svg">
-                                    </div>
-                                    <img src="images/avatar-03.png" alt="Avatar 3">
-                                    <div class="rectangle rec-lg"></div>
-                                </div>
-                            </div>
-                            
-                            <!--SPOTIFY BOARD-->
-                            <div class="spotify-board">
-                                <img src="images/icon-spotify.svg" alt="Spotify">
-                                <p>Spotify</p>
-                                <p>-$49</p>
-                            </div>
-
-                            <!--AVATAR VECTOR-->
-                            <div class="split-vector">
-                                <img src="images/vector-spiral.svg">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+         <!--SOCIAL PROOF-->
+         <section class="social-proof">
+            <div class="social-container">
+                <div class="social-title">
+                    <p>Trusted by 3000+ partners & customers</p>
+                </div>
+
+                <!--MOBILE-->
+                <div class="partners-wrapper-mobile mobile">
+                    <div class="partners-line line-1">
+                        <img src="images/logo-stripe.svg" alt="Stripe" class="stripe">
+                        <img src="images/logo-orfium.svg" alt="Orfium" class="orfium">
+                        <img src="images/logo-kinsta.svg" alt="Kinsta" class="kinsta">
+                    </div>
+                    <div class="partners-line">
+                        <img src="images/logo-nowports.svg" alt="Nowports" class="nowports">
+                        <img src="images/logo-bankable.svg" alt="Bankable" class="bankable">
+                    </div>
+                </div>
+
+                <!--DESKTOP-->
+                <div class="partners-wrapper-desktop desktop">
+                    <div class="partners-line">
+                        <img src="images/logo-stripe.svg" alt="Stripe" class="stripe">
+                        <img src="images/logo-orfium.svg" alt="Orfium" class="orfium">
+                        <img src="images/logo-kinsta.svg" alt="Kinsta" class="kinsta">
+                        <img src="images/logo-bankable.svg" alt="Bankable" class="bankable">
+                        <img src="images/logo-nowports.svg" alt="Nowports" class="nowports">
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+
+       
+        
     </div>
     <script src="js/main.js"></script>
 </body>
