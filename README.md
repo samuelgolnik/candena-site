@@ -23,6 +23,7 @@
        A próxima sessâo mostra as melhores vantagens ao ser um cliente da empresa, exibindo de forma bastante visual diferenciais exclusivos da empresa. <br>
        Por fim, na última sessão o visitante é convidado a experimentar o serviço de cartão personalizado pedindo aquele que melhor se adequa aos seus desejos. <br>
   </p>
+  <br>
   <h2>Desenvolvimento e suas dificuldades</h2>
   <p>
     A construção do site foi um processo de muitos desafios, mas também de aprendizados. Por ser o primeiro projeto próximo à realidade do mercado, alguns obstáculos que
