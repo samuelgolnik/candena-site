@@ -215,6 +215,7 @@ span {
     .visa-card-image img{
         width: 16px;
         height: 10px;
+        filter: drop-shadow(0px 10px 20px rgba(234, 0, 27, 0.25));
     }
 
     .visa-card-content {
@@ -280,6 +281,7 @@ span {
         display: flex;
         position: relative;
         align-self: flex-end;
+        z-index: 5;
     }
     
     .icon-v-lg {
@@ -316,6 +318,8 @@ span {
     .card-card img {
         width: 160px;
         height: 100px;
+        box-shadow: inset -0.674074px -0.674074px 1.34815px rgba(0, 0, 0, 0.04), inset 0px 1.34815px 1.34815px rgba(255, 255, 255, 0.15);
+        filter: drop-shadow(-40px 70px 100px rgba(16, 16, 16, 0.1));
     }
 
     /* SPLIT */
@@ -330,6 +334,7 @@ span {
         border-radius: 16px;
         background-color: #fff;
         z-index: -5;
+        filter: drop-shadow(0px 27px 20px rgba(0, 0, 0, 0.02));
     }
 
     .split-content {
@@ -579,6 +584,7 @@ span {
         align-items: center;
         margin-left: 53px;
         margin-top: -74px;
+        filter: drop-shadow(0px -4px 20px rgba(0, 0, 0, 0.04));
     }
 
     .bg-payment-white {
@@ -761,7 +767,7 @@ span {
     }
     
     .features-text {
-        width: 277px;
+        width: 272px;
         text-align: center;
     }
 
@@ -809,7 +815,8 @@ span {
         height: 775px;
         display: flex;
         align-items: center;
-        margin-bottom: 64px;
+        margin-top: 96px;
+        margin-bottom: 0px;
         padding: 50px 20px 0 20px;
         flex-direction: column;
         background-color: #FAF8F5;
