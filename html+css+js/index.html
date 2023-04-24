@@ -7,62 +7,87 @@
     <link rel="stylesheet" href="css/main.css">
     <title>Cadena</title>
 </head>
-<body>
+<body class="light bg-color-sec text-color-prim">
     <div class="page-wrapper">
 
         <!--HEADER-->
-        <header>
+        <header class="light bg-color-sec">
             <div class="topbar">
                 <div class="header-content">
-                    <div class="logo-cadena">
-                        <img src="images/logo-cadena.svg" alt="Logo Cadena">
+                    <!--LIGHT MODE-->
+                    <div class="light logo-cadena light-mode">
+                        <img src="images/logo-cadena-black.svg" alt="Logo Cadena">
                     </div>
-                    <nav class="menu desktop">
+                    <!--DARK MODE-->
+                    <div class="light logo-cadena dark-mode">
+                        <img src="images/logo-cadena-white.svg" alt="Logo Cadena">
+                    </div>
+                    <nav class="light menu desktop text-color-prim">
                         <a href="#">Home</a>
                         <a href="#">Privacy</a>
                         <a href="#">Terms</a>
                     </nav>
                 </div>
+
+                <!--MODE BUTTON-->
+                <div class="light mode-btn bg-color-btn">
+                    <input type="checkbox" name="change-mode" id="change-mode">
+                    <label for="change-mode">
+                        <img src="images/icon-sun.svg" class="light dark-mode">
+                        <img src="images/icon-moon.svg" class="light light-mode">
+                    </label>
+                </div>
+
                 <div class="navigation desktop">
                     <a>Log in</a>
-                    <button class="btn">Sign up</button>
+                    <button class="light btn bg-color-btn text-color-terc">Sign up</button>
                 </div>
-                <div class="menu-hamburger mobile">
-                    <img src="images/icon-menu-mobile.svg" alt="Menu">
+
+                <!--HAMBURGER MENU-->
+                <div class="hamburguer mobile">
+                        <!--LIGHT MODE-->
+                <div class="light menu-hamburger light-mode mobile">
+                    <img src="images/icon-menu-mobile-black.svg" alt="Menu">
+                </div>
+                
+                    <!--DARK MODE-->
+                <div class="light menu-hamburger dark-mode mobile">
+                    <img src="images/icon-menu-mobile-white.svg" alt="Menu">
+                </div>
                 </div>
             </div>
         </header>
 
         <!--HERO-->
-        <section class="hero">
-            <div class="container">
+        <section class="light hero bg-color-transparent">
+            <div class="container bg-color-transparent">
 
                 <!--LEFT SIDE-->
-                <div class="hero-content-wrapper">
+                <div class="hero-content-wrapper bg-color-transparent">
 
                     <!--HEADING-->
                     <div class="hero-heading">
                         <div class="hero-heading-head">
-                            <div class="hero-badge-group">
-                                <div class="hero-badge-title">
+                            <div class="light hero-badge-group bg-color-terc text-color-sec">
+                                <div class="light hero-badge-title bg-color-quat text-color-quart">
                                     <p>New!</p>
                                 </div>
-                                <div class="hero-badge-content">
-                                    <p>Refer a friend & Get 25%</p>
+                                <div class="hero-badge-content bg-color-transparent">
+                                    <span>Refer a friend & Get 25%</apan>
                                     <img src="images/icon-arrow.svg" alt="Indique um amigo">
                                 </div>
                             </div>
 
                             <!--DESKTOP-->
 
-                            <div class="hero-badge-headding-deskotp desktop">
+                            <div class="hero-badge-headding-deskotp desktop bg-color-transparent">
                                 <h1>Spend Your <span>Money in</span><br>
                                     <span>Style</span> with a Customized <br>
                                     Card</h1>
                             </div>
 
                             <!--MOBILE-->
-                            <div class="hero-badge-headding-mobile mobile">
+                            <div class="hero-badge-headding-mobile mobile bg-color-transparent">
                                 <h1>Spend Your <span>Money in</span><br>
                                     <span>Style</span> with a <br> Customized Card
                                 </h1>
@@ -84,10 +109,10 @@
 
                     <!--STORE BUTTONS-->
                     <div class="buttons-wrapper">
-                        <button class="btn-store btn-app">
+                        <button class="btn-store btn-app bg-color-white">
                             <img src="images/button-appstore.svg" alt="Appsotre">
                         </button>
-                        <button class="btn-store btn-play">
+                        <button class="btn-store btn-play bg-color-white">
                             <img src="images/button-playsotre.svg" alt="Playstore">
                         </button>
                     </div>
@@ -95,11 +120,11 @@
 
             
                 <!--RIGTH SIDE-->
-                <div class="hero-images-wrapper">
+                <div class="hero-images-wrapper text-color-black bg-color-transparent">
 
                     <!--VISA BOARD-->
                         <div class="visa-wrapper">
-                            <div class="visa-content">
+                            <div class="visa-content bg-color-white">
                                 <div class="visa-card-image">
                                     <img src="images/logo-mastercard.svg" alt="Mastercad logo">
                                 </div>
@@ -111,7 +136,7 @@
                                     <p>$3 520.45</p>
                                 </div>
                             </div>
-                            <div class="icon-v-visa">
+                            <div class="icon-v-visa bg-color-purple">
                                 <img src="images/icon-v-white.svg">
                             </div>
                         </div>
@@ -119,12 +144,12 @@
                     <!--SPLIT-CARD-->
                         <div class="split-card">
                             <!--SPLIT BOARD-->
-                            <div class="split-wrapper">
+                            <div class="split-wrapper bg-color-white">
                             <div class="split-content">
                                     <div class="split-heading">
                                         <p>Split payment</p>
-                                        <div class="rectangle rec-xl"></div>
-                                        <div class="rectangle rec-md"></div>
+                                        <div class="rectangle rec-xl bg-color-gray"></div>
+                                        <div class="rectangle rec-md bg-color-gray"></div>
                                     </div>
 
                                     <!--AVATARS HORIZONTAL BOARD-->
@@ -134,33 +159,33 @@
                                         <div class="avatar-container-horizontal">
                                             <div class="avatar-horizontal">
                                                 <img src="images/avatar-01.svg" alt="Avatar 1">
-                                                <div class="avatar-icon-x">
+                                                <div class="avatar-icon-x bg-color-purple">
                                                     <img src="images/icon-x.svg" alt="Fechar">
                                                 </div>
                                             </div>
-                                            <div class="rectangle rec-sm"></div>
+                                            <div class="rectangle rec-sm bg-color-gray"></div>
                                         </div>
 
                                         <!--AVATAR 02-->
                                         <div class="avatar-container-horizontal">
                                             <div class="avatar-horizontal">
                                                 <img src="images/avatar-02.svg" alt="Avatar 2">
-                                                <div class="avatar-icon-x">
+                                                <div class="avatar-icon-x bg-color-purple">
                                                     <img src="images/icon-x.svg" alt="Fechar">
                                                 </div>
                                             </div>
-                                            <div class="rectangle rec-sm"></div>
+                                            <div class="rectangle rec-sm bg-color-gray"></div>
                                         </div>
 
                                         <!--AVATAR 03-->
                                         <div class="avatar-container-horizontal">
                                             <div class="avatar-horizontal">
                                                 <img src="images/avatar-03.svg" alt="Avatar 3">
-                                                <div class="avatar-icon-x">
+                                                <div class="avatar-icon-x bg-color-purple">
                                                     <img src="images/icon-x.svg" alt="Fechar">
                                                 </div>
                                             </div>
-                                            <div class="rectangle rec-sm"></div>
+                                            <div class="rectangle rec-sm bg-color-gray"></div>
                                         </div>
                                         
                                         <!--AVATAR VECTORS-->
@@ -186,36 +211,36 @@
 
                                         <!--AVATAR 01-->
                                         <div class="avatar-vertical">
-                                            <div class="avatar-icon-v">
+                                            <div class="avatar-icon-v bg-color-purple">
                                                 <img src="images/icon-v-white.svg">
                                             </div>
                                             <img src="images/avatar-01.svg" alt="Avatar 1">
-                                            <div class="rectangle rec-lg"></div>
+                                            <div class="rectangle rec-lg bg-color-gray"></div>
                                         </div>
 
                                         <!--AVATAR 02--> 
                                         <div class="avatar-vertical">
-                                            <div class="avatar-icon-null"></div>
+                                            <div class="avatar-icon-null bg-color-gray"></div>
                                             <img src="images/avatar-04.svg" alt="Avatar 3">
-                                            <div class="rectangle rec-lg"></div>
+                                            <div class="rectangle rec-lg bg-color-gray"></div>
                                         </div>
 
                                         <!--AVATAR 03--> 
                                         <div class="avatar-vertical">
-                                            <div class="avatar-icon-v">
+                                            <div class="avatar-icon-v bg-color-purple">
                                                 <img src="images/icon-v-white.svg">
                                             </div>
                                             <img src="images/avatar-02.svg" alt="Avatar 2">
-                                            <div class="rectangle rec-lg"></div>
+                                            <div class="rectangle rec-lg bg-color-gray"></div>
                                         </div>
 
                                         <!--AVATAR 04--> 
                                         <div class="avatar-vertical">
-                                            <div class="avatar-icon-v">
+                                            <div class="avatar-icon-v bg-color-purple">
                                                 <img src="images/icon-v-white.svg">
                                             </div>
                                             <img src="images/avatar-03.svg" alt="Avatar 3">
-                                            <div class="rectangle rec-lg"></div>
+                                            <div class="rectangle rec-lg bg-color-gray"></div>
                                         </div>
                                     </div>
                                     
@@ -238,10 +263,10 @@
                             </div>
 
                             <!--CARD BOARD-->
-                            <div class="card-image-wrapper">
+                            <div class="card-image-wrapper bg-color-transparent">
                                 <div class="icon-v-wrapprer">
-                                    <div class="icon-v-lg">
-                                        <div class="icon-v-sm">
+                                    <div class="icon-v-lg bg-color-purple">
+                                        <div class="icon-v-sm bg-color-purple">
                                             <img src="images/icon-v-white.svg">
                                         </div>
                                     </div>
@@ -255,12 +280,12 @@
                         
                     <!--PAYMENT BOARD-->
                     <div class="payment-board">
-                        <div class="bg-payment-white">
+                        <div class="bg-payment-white bg-color-white">
                             <div class="payment-to">
                                 <p>PAYMENT TO</p>
                             </div>
                             <div class="payment-logo">
-                                <img src="images/logo-cadena.svg" alt="Logo Cadena">
+                                <img src="images/logo-cadena-black.svg" alt="Logo Cadena">
                             </div>
                         </div>
                         <div class="bg-payment-rose">
@@ -269,8 +294,8 @@
                             </div>
                         </div>
                         <div class="icon-v-payment">
-                            <div class="icon-v-md">
-                                <div class="icon-v-rose">
+                            <div class="icon-v-md bg-color-white">
+                                <div class="icon-v-rose bg-color-white">
                                     <img src="images/icon-v-rose.svg" alt="rose">
                                 </div>
                             </div>
@@ -314,7 +339,7 @@
         </section>
     
         <!--FEATURES SECTION 1-->
-       <section class="features-1">
+       <section class="light features-1 bg-color-prim">
             <div class="features-wrapper">
                 <div class="features-title">
                     <h2>Flex Your Digital Wealth with <span>Cadena</span></h2>
@@ -322,14 +347,14 @@
                 <div class="features-cards-wrapper">
                     <div class="features-left">
                         <div class="left-line">
-                            <div class="card-features features-versatiles">
+                            <div class="light card-features features-versatiles bg-color-quin">
                                 <h3><span>Versatile</span> Use</h3>
                                 <div class="features-text">
                                     <p>Use your digital card for online <span>purchases</span>, in-store purchases, and more</p>
                                 </div>
                                 <img src="images/features-versatile.png">
                             </div>
-                            <div class="card-features features-accepted">
+                            <div class="light card-features features-accepted bg-color-quin">
                                 <h3>Accepted <span>Everywhere</span></h3>
                                 <img src="images/features-accepted.svg">
                                 <div class="features-text">
@@ -338,14 +363,14 @@
                             </div>
                         </div>
                         <div class="left-line">
-                            <div class="card-features features-easy">
+                            <div class="light card-features features-easy bg-color-quin">
                                 <h3>Easy <span>Management</span></h3>
                                 <img src="images/features-easy.png">
                                 <div class="features-text">
                                     <p>Manage your digital card and transactions easily through our <span>user-friendly</span> app.</p>
                                 </div>
                             </div>
-                            <div class="card-features features-customer">
+                            <div class="light card-features features-customer bg-color-quin">
                                 <h3><span>Customer</span> Support</h3>
                                 <img src="images/features-customer.png">
                                 <div class="features-text">
@@ -357,7 +382,7 @@
 
                     <!--MOBILE-->
                     <div class="mobile">
-                        <div class="card-features features-rigth-mobile">
+                        <div class="light card-features features-rigth-mobile bg-color-quin">
                             <div class="features-spend">
                                 <h3><span>Effortlessly</span> Spend</h3>
                                 <img src="images/features-spend.png">
@@ -370,7 +395,7 @@
 
                     <!--DESKTOP-->
                     <div class="desktop">
-                        <div class="card-features features-rigth-desktop">
+                        <div class="light card-features features-rigth-desktop bg-color-quin">
                             <div class="features-spend">
                                 <h3><span>Effortlessly</span> Spend</h3>
                                 <div class="features-text">
@@ -385,8 +410,8 @@
        </section>
 
        <!--FEATURES SECTION 2-->
-       <section class="features-2">
-            <div class="features-2-wrapper">
+       <section class="light features-2 bg-color-prim">
+            <div class="light features-2-wrapper bg-color-sext">
                 <div class="features-left">
                     <div class="features-2-title">
                         <h2>Create Unique Cards in <span>Style</span></h2>
@@ -394,9 +419,15 @@
                     <div class="features-2-text">
                         <p>Our cards offer more than just attractive design. They also feature instant payment notifications and in-app card security management. Plus, you can start making purchases right away using Google Pay or Apple Pay.</p>
                     </div>
-                    <div class="btn-wrapper">
-                        <button class="features-btn">Get a Card<img src="images/icon-next.svg"></button>
+
+                    <div class="light btn-wrapper light-mode">
+                        <button class="light features-btn bg-color-btn text-color-terc">Get a Card<img src="images/icon-next-white.svg"></button>
                     </div>
+
+                    <div class="light btn-wrapper dark-mode">
+                        <button class="light features-btn bg-color-btn text-color-terc">Get a Card<img src="images/icon-next-black.svg"></button>
+                    </div>
+
                 </div>
                 <div class="features-2-right">
                     <div class="features-card-line line-up">
@@ -421,16 +452,28 @@
 
        <!--FOOTER-->
        <footer>
-            <div class="footer-wrapper">
+            <div class="light footer-wrapper bg-color-prim">
                 <div class="footer-left">
-                    <div class="footer-logo">
-                        <img src="images/logo-cadena.svg" alt="Cadena">
+                    <!--LIGHT MODE-->
+                    <div class="light footer-logo light-mode">
+                        <img src="images/logo-cadena-black.svg" alt="Cadena">
                     </div>
-                    <hr class="mobile">
-                    <div class="social-wrapper">
-                        <img src="images/icon-twitter.svg" class="icon-tt">
-                        <img src="images/icon-linkedin.svg" class="icon-in">
-                        <img src="images/icon-facebook.svg" class="icon-fb">
+                    <!--DARK MODE-->
+                    <div class="light footer-logo dark-mode">
+                        <img src="images/logo-cadena-white.svg" alt="Cadena">
+                    </div>
+                    <hr class="ligth mobile text-color-prim">
+                    <!--LIGHT MODE-->
+                    <div class="light social-wrapper light-mode">
+                        <img src="images/icon-twitter-black.svg" class="icon-tt">
+                        <img src="images/icon-linkedin-black.svg" class="icon-in">
+                        <img src="images/icon-facebook-black.svg" class="icon-fb">
+                    </div>
+                    <!--DARK MODE-->
+                    <div class="light social-wrapper dark-mode">
+                        <img src="images/icon-twitter-white.svg" class="icon-tt">
+                        <img src="images/icon-linkedin-white.svg" class="icon-in">
+                        <img src="images/icon-facebook-white.svg" class="icon-fb">
                     </div>
                 </div>
                 <div class="copy-wrapper">
