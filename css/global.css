@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+
+:root {
+    /*Variables name pattern -> --light-theme-color__dark-theme-color*/ 
+    --black__white: #1B1C20;
+    --white__balck: #FFF;
+    --white-somke__black: #F5F5F5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: Inter;
+    font-style: normal;
+}
+
+body {
+    display: block;
+    background-color: var(--white-somke__black);
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
